@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ilo | 構造設計事務所</title>
+<meta name="description" content="ilo（イロ）は建築の構造設計を専門とする設計事務所です。安全性と意匠性を両立する構造設計を通じて、建築を支えます。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;500;600&family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="#top" class="logo">ilo<span class="logo-sub">構造設計事務所</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="メニューを開く" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="site-nav" id="siteNav">
+      <a href="#about">会社概要・理念</a>
+      <a href="#works">事業内容・実績</a>
+      <a href="#contact">お問い合わせ</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="hero-inner">
+      <p class="hero-eyebrow">STRUCTURAL DESIGN OFFICE</p>
+      <h1>確かな構造で、<br>建築の可能性を支える。</h1>
+      <p class="hero-lead">
+        ilo（イロ）は、意匠設計者・施主とともに建築の骨格を考える構造設計事務所です。
+        安全性と経済性、そしてデザインの自由度を両立する構造を提案します。
+      </p>
+      <a class="btn btn-primary" href="#contact">お問い合わせはこちら</a>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="section-inner">
+      <p class="section-eyebrow">ABOUT</p>
+      <h2 class="section-title">会社概要・理念</h2>
+
+      <div class="philosophy">
+        <p>
+          <!-- 【要差し替え】会社の理念・想いをここに記載してください -->
+          建築は、意匠・設備・構造がそれぞれの専門性を持ち寄ることで初めて成立します。
+          私たちiloは「構造」という視点から建築に関わり、安全性を土台としながらも、
+          意匠の可能性を狭めない構造提案を大切にしています。
+          小規模な木造住宅から中大規模の非住宅建築まで、一つひとつのプロジェクトに向き合い、
+          最適な構造解を導き出します。
+        </p>
+      </div>
+
+      <div class="company-table-wrap">
+        <table class="company-table">
+          <tbody>
+            <tr><th>会社名</th><td>株式会社ilo（イロ）<!-- 【要差し替え】正式名称 --></td></tr>
+            <tr><th>代表者</th><td>【要差し替え】代表取締役　◯◯ ◯◯</td></tr>
+            <tr><th>所在地</th><td>【要差し替え】〒000-0000 東京都◯◯区◯◯ 0-0-0</td></tr>
+            <tr><th>設立</th><td>【要差し替え】20◯◯年◯月</td></tr>
+            <tr><th>事業内容</th><td>建築構造設計、構造監理、耐震診断・耐震補強設計、構造コンサルティング</td></tr>
+            <tr><th>登録</th><td>【要差し替え】一級建築士事務所登録　東京都知事登録第◯◯◯◯号</td></tr>
+            <tr><th>所属団体</th><td>【要差し替え】日本建築構造技術者協会（JSCA）等</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section id="works" class="section section-alt">
+    <div class="section-inner">
+      <p class="section-eyebrow">BUSINESS</p>
+      <h2 class="section-title">事業内容・実績</h2>
+
+      <div class="service-grid">
+        <div class="service-card">
+          <h3>構造設計</h3>
+          <p>木造・RC造・S造・混構造まで、用途規模に応じた構造計画・構造計算・構造図の作成を行います。</p>
+        </div>
+        <div class="service-card">
+          <h3>構造監理</h3>
+          <p>設計意図が正しく施工に反映されるよう、工事段階での構造監理・現場対応を行います。</p>
+        </div>
+        <div class="service-card">
+          <h3>耐震診断・耐震補強</h3>
+          <p>既存建築物の耐震診断、補強計画の立案から実施設計までをサポートします。</p>
+        </div>
+        <div class="service-card">
+          <h3>構造コンサルティング</h3>
+          <p>企画・基本設計段階からの構造アドバイス、コスト検討、他事務所との協働も承ります。</p>
+        </div>
+      </div>
+
+      <h3 class="works-heading">主な実績</h3>
+      <p class="works-note"><!-- 【要差し替え】実際のプロジェクト事例に差し替えてください --></p>
+      <div class="works-grid">
+        <div class="work-card">
+          <div class="work-thumb" aria-hidden="true"></div>
+          <p class="work-title">木造二世帯住宅【仮】</p>
+          <p class="work-meta">木造2階建 / 東京都 / 20◯◯</p>
+        </div>
+        <div class="work-card">
+          <div class="work-thumb" aria-hidden="true"></div>
+          <p class="work-title">オフィスビル新築【仮】</p>
+          <p class="work-meta">S造5階建 / 神奈川県 / 20◯◯</p>
+        </div>
+        <div class="work-card">
+          <div class="work-thumb" aria-hidden="true"></div>
+          <p class="work-title">既存住宅の耐震補強【仮】</p>
+          <p class="work-meta">木造2階建 / 埼玉県 / 20◯◯</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="section-inner">
+      <p class="section-eyebrow">CONTACT</p>
+      <h2 class="section-title">お問い合わせ</h2>
+      <p class="contact-lead">
+        構造設計に関するご相談、お見積りのご依頼は、下記フォームまたはメールにてお気軽にお問い合わせください。
+      </p>
+
+      <!--
+        【要差し替え】お問い合わせフォームについて
+        GitHub Pagesは静的サイトのため、フォーム送信の処理は外部サービスを利用します。
+        下記はGoogleフォームを埋め込む場合の例です。
+        Googleフォームを作成後、共有 →「埋め込む」からiframeのURLを取得し、src属性を差し替えてください。
+        Formspree（https://formspree.io）を使う場合は action にFormspreeのエンドポイントを指定してください。
+      -->
+      <div class="contact-form-wrap">
+        <iframe
+          src="https://docs.google.com/forms/d/e/【要差し替え：GoogleフォームのフォームID】/viewform?embedded=true"
+          width="100%" height="900" frameborder="0" marginheight="0" marginwidth="0">
+          読み込んでいます…
+        </iframe>
+      </div>
+
+      <div class="contact-alt">
+        <p>メールでのお問い合わせ：<a href="mailto:info@ilo-ilo.com">info@ilo-ilo.com</a><!-- 【要差し替え】実際の連絡先メールアドレス --></p>
+        <p>電話：【要差し替え】00-0000-0000（受付時間 平日 9:00〜18:00）</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <p class="footer-logo">ilo</p>
+    <p class="footer-address">【要差し替え】〒000-0000 東京都◯◯区◯◯ 0-0-0</p>
+    <p class="footer-copy">&copy; <span id="year"></span> ilo. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
