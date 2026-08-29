@@ -162,6 +162,16 @@ img { max-width: 100%; display: block; }
   color: var(--color-accent);
 }
 
+.btn-outline {
+  background: transparent;
+  color: var(--color-accent);
+}
+
+.btn-outline:hover {
+  background: var(--color-accent);
+  color: #fff;
+}
+
 /* Sections */
 .section {
   padding: 100px 24px;
@@ -255,10 +265,72 @@ img { max-width: 100%; display: block; }
   margin-bottom: 32px;
 }
 
+.works-cta {
+  margin-top: 56px;
+  padding-top: 40px;
+  border-top: 1px solid var(--color-line);
+}
+
+.works-cta p {
+  font-size: 14px;
+  color: var(--color-text-muted);
+  margin: 0 0 20px;
+}
+
 .works-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 32px;
+}
+
+/* Works page */
+.page-hero {
+  padding: 100px 24px 60px;
+  border-bottom: 1px solid var(--color-line);
+}
+
+.page-hero-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.page-hero-lead {
+  max-width: 560px;
+  color: var(--color-text-muted);
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+.works-filter-note {
+  font-size: 13px;
+  color: var(--color-text-muted);
+  margin-bottom: 40px;
+}
+
+.works-grid-full {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px 32px;
+}
+
+.work-card-full .work-thumb {
+  aspect-ratio: 4 / 3;
+}
+
+.work-tag {
+  display: inline-block;
+  font-size: 11px;
+  letter-spacing: 0.05em;
+  color: var(--color-text-muted);
+  border: 1px solid var(--color-line);
+  padding: 3px 10px;
+  margin-bottom: 10px;
+}
+
+.work-desc {
+  font-size: 13px;
+  color: var(--color-text-muted);
+  margin: 8px 0 0;
 }
 
 .work-thumb {
@@ -328,6 +400,7 @@ img { max-width: 100%; display: block; }
 @media (max-width: 860px) {
   .service-grid { grid-template-columns: 1fr; }
   .works-grid { grid-template-columns: 1fr 1fr; }
+  .works-grid-full { grid-template-columns: 1fr 1fr; }
 }
 
 @media (max-width: 640px) {
@@ -360,5 +433,7 @@ img { max-width: 100%; display: block; }
   .hero h1 { font-size: 30px; }
   .section { padding: 64px 20px; }
   .works-grid { grid-template-columns: 1fr; }
+  .works-grid-full { grid-template-columns: 1fr; }
   .company-table th { width: 110px; }
+  .page-hero { padding: 80px 20px 48px; }
 }
